@@ -1,0 +1,12 @@
+.video__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  max-width: 1184px;
+}
+
+@media all and (max-width: 767px) {
+  .video__container {
+    display: block;
+  }
+}

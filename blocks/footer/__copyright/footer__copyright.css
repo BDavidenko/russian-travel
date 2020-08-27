@@ -1,0 +1,19 @@
+.footer__copyright {
+  max-width: 282px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  margin-bottom: auto;
+}
+
+@media all and (max-width: 1023px) {
+  .footer__copyright {
+    margin: auto 0;
+  }
+}
+
+@media all and (max-width: 505px) {
+  .footer__copyright {
+    text-align: left;
+  }
+}
